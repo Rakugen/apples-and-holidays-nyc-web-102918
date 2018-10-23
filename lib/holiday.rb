@@ -115,6 +115,7 @@ def all_supplies_in_holidays(holiday_hash)
       output_sentence << "  " + temp_holiday_str + ": "
       output_sentence << supplies.join(", ")
       puts output_sentence
+
     end
   end
 end
